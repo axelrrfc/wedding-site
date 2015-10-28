@@ -688,10 +688,7 @@ var Lilac;
                     counter,
                     $parent = $("" + parent);
 
-                $parent.html('<div class="days"><span>' + $tis.c_days + '</span><div></div></div>' +
-                        '<div class="hours"><span>' + $tis.c_hours + '</span><div></div></div>' +
-                        '<div class="minutes"><span>' + $tis.c_minutes + '</span><div></div></div>' +
-                        '<div class="seconds"><span>' + $tis.c_seconds + '</span><div></div></div>');
+                $parent.html('<div class="days"><span>' + $tis.c_days + '</span><div></div></div>');
 
                 function changeTime() {
                     var today = new Date(),

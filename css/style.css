@@ -1186,18 +1186,6 @@ fieldset[disabled] .btn.ribbon.active {
 .divider-bottom-2.divider-pattern.divider-bg-color::before {
   background-color: #ad9fb3;
 }
-.divider-bottom-3::after {
-  content: "";
-  width: 100%;
-  height: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-repeat: repeat-x;
-  background-position: top center;
-  background-image: url('../images/divider_3.png');
-  z-index: 1;
-}
 .divider-top-1::before {
   content: "";
   width: 100%;
@@ -1550,9 +1538,9 @@ fieldset[disabled] .btn.ribbon.active {
   left: 0;
   top: 0;
   background-color: #73627b;
-  -webkit-opacity: 0.85;
-  -moz-opacity: 0.85;
-  opacity: 0.60;
+  -webkit-opacity: 0.55;
+  -moz-opacity: 0.55;
+  opacity: 0.55;
 }
 .hero-title {
   color: #fff;
@@ -1861,7 +1849,7 @@ fieldset[disabled] .btn.ribbon.active {
   width: 32%;
 }
 .story-elem p {
-  padding: 30px 4% 25px;
+  padding: 0 4%;
   width: 100%;
 }
 .balloon-left,
@@ -1939,7 +1927,7 @@ fieldset[disabled] .btn.ribbon.active {
 .quote-fullwidth {
   background-image: url("../images/quote-img.jpg");
   font-size: 38pt;
-  line-height: 38pt;
+  line-height: 1.2;
   padding: 100px 0;
   text-align: center;
   color: #fff;
@@ -2558,7 +2546,7 @@ fieldset[disabled] .btn.ribbon.active {
   text-align: center;
   width: 28%;
   float: left;
-  padding-top: 8px;
+  padding-top: 0;
   padding-right: 18px;
 }
 .location-info .event_left .event_panel .info-right,
@@ -2688,7 +2676,7 @@ fieldset[disabled] .btn.ribbon.active {
 .wedding-gifts li {
   position: relative;
   min-height: 420px;
-  width: 31.3333%;
+  width: 48%;
   display: inline-block;
   float: left;
   text-align: center;
@@ -4820,6 +4808,11 @@ div.dark_square #pp_full_res .pp_inline {
   .countdown > div > div {
     font-size: 46pt;
   }
+
+  .hours, .minutes, .seconds {
+    display: none;
+  }
+
   .balloon-left,
   .balloon-right {
     left: 8px;
@@ -5005,4 +4998,12 @@ div.dark_square #pp_full_res .pp_inline {
     float: none;
   }
 
+}
+
+/** Custom Styles **/
+
+.hashtag {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
 }
