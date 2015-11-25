@@ -7,7 +7,7 @@ var	mobileMenuTitle = "Menu",					//The title of the mobile menu
 	hero100PercentHeight = false,				//If true, the hero section (home) will be set with a minimum height of 100% window height. If false, hero height will be the height of its content.
 
 	//TWITTER VARIABLE
-	twitter_username = "Envato",				//Replace with your own Twitter username
+	twitter_username = "solanum",				//Replace with your own Twitter username
 
 
 	//GOOGLE MAP VARIABLES

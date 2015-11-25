@@ -2672,11 +2672,10 @@ fieldset[disabled] .btn.ribbon.active {
 .wedding-gifts li {
   position: relative;
   min-height: 420px;
-  width: 48%;
-  display: inline-block;
-  float: left;
+  width: 50%;
+  display: block;
   text-align: center;
-  margin: 0 1% 20px 1%;
+  margin: 0 auto;
   border: 1px solid #ad9fb3;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2758,6 +2757,7 @@ fieldset[disabled] .btn.ribbon.active {
   background: rgba(255, 255, 255, 0.15);
   margin: 5px auto;
   padding: 5px 10px;
+  max-width: 40%;
 }
 .wedding-gifts li .info .btn {
   margin: 4px 8px;
