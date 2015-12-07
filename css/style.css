@@ -2136,7 +2136,6 @@ fieldset[disabled] .btn.ribbon.active {
 .timeline .event_left .event_panel p,
 .timeline .event_right .event_panel p {
   font-size: 10pt;
-  color: #adb1b5;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -ms-transition: color 0.3s;
@@ -5013,4 +5012,14 @@ div.dark_square #pp_full_res .pp_inline {
   display: block;
   margin: 0 auto;
   max-width: 75% !important;
+}
+
+/** Custom responsive styling **/
+
+@media screen and (max-width: 550px) {
+ 
+  #home {
+    padding-top: 110px;
+  }
+
 }
