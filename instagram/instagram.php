@@ -3,7 +3,7 @@ header('Content-type: application/json');
 
 $user_id = '780148264';
 $access_token = '780148264.9d72d38.4e6967d088854a23b569561c92426958';
-$hashtag = 'okanaganwedding';
+$hashtag = 'zainobrowno';
 
 $api_url = 'https://api.instagram.com/v1/tags/' . $hashtag . '/media/recent?access_token=' . $access_token;
 
