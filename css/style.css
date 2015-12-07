@@ -5003,3 +5003,9 @@ div.dark_square #pp_full_res .pp_inline {
   font-weight: bold;
   margin-top: 20px;
 }
+
+.event_panel img {
+  display: block;
+  margin: 0 auto;
+  max-width: 75% !important;
+}
