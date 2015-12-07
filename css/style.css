@@ -2668,12 +2668,16 @@ fieldset[disabled] .btn.ribbon.active {
   margin-bottom: 35px;
   margin-top: 15px;
   padding: 0;
+  text-align: center;
+}
+.wedding-gifts p {
+  color: white;
 }
 .wedding-gifts li {
   position: relative;
   min-height: 420px;
-  width: 50%;
-  display: block;
+  width: 40%;
+  display: inline-block;
   text-align: center;
   margin: 0 auto;
   border: 1px solid #ad9fb3;
@@ -2685,6 +2689,7 @@ fieldset[disabled] .btn.ribbon.active {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
+  vertical-align: top;
 }
 .wedding-gifts li::before {
   position: absolute;
