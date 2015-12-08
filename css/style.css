@@ -2512,7 +2512,7 @@ fieldset[disabled] .btn.ribbon.active {
   list-style: none;
   padding: 0;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .location-info::before {
   top: 60px;
@@ -5020,6 +5020,33 @@ div.dark_square #pp_full_res .pp_inline {
  
   #home {
     padding-top: 110px;
+    padding-bottom: 150px !important;
   }
 
+  .countdown {
+    margin: 0;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .hero-title {
+    font-size: 24pt;
+  }
+
+  .hero-title span:first-child:before {
+    left: -30px;
+  }
+
+  .hero-title span:last-child:after {
+    right: -30px;
+  }
+
+  .divider-bottom-2 {
+    padding-bottom: 400px;
+  }
+
+  #thewedding {
+    padding-top: 0;
+  }
 }
